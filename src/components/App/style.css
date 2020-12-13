@@ -1,0 +1,17 @@
+.layout {
+  width: 100vw;
+  margin: 0 auto;
+  background: #ffffff;
+  align-content: space-between;
+}
+.spin {
+  transform: scale(2.5) translateY(100%);
+}
+.ant-pagination,
+.ant-pagination ol,
+.ant-pagination ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}

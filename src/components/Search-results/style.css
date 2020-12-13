@@ -1,0 +1,24 @@
+.grid {
+  width: 450px;
+  height: 281px;
+  display: flex;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+.poster {
+  height: 281px;
+}
+.ant-card-grid {
+  float: none;
+  padding: 0;
+  margin: 17px;
+}
+.rate-scale {
+  position: relative;
+}
+.ant-rate-star:not(:last-child) {
+  margin-right: 0;
+}
