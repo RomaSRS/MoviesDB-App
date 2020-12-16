@@ -12,10 +12,9 @@ import MenuBar from '../Menu/Menu';
 export default class App extends Component {
   state = {
     data: [],
-    request: 'Return',
+    request: 'return',
     totalPages: null,
     page: 1,
-    loading: true,
     error: false,
     mode: 'search',
   };
@@ -59,7 +58,7 @@ export default class App extends Component {
   };
 
   updateSearchStr = request => {
-    if (request === '') return;
+    // if (request === '') return;
     this.setState({
       request,
       page: 1,

@@ -8,6 +8,12 @@
   grid-template-columns: auto auto;
   justify-content: center;
 }
+
+  @media (max-width: 375px) {
+    .container {
+    display: block;
+  }
+}
 .poster {
   height: 281px;
 }

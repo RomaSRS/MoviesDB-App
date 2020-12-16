@@ -4,6 +4,17 @@
   background: #ffffff;
   align-content: space-between;
 }
+  
+@media (max-width: 375px) {
+  .layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 375px;
+  }
+}
+
 .spin {
   transform: scale(2.5) translateY(100%);
 }
@@ -14,4 +25,11 @@
   padding: 0;
   list-style: none;
   text-align: center;
+}
+
+
+@media (max-width: 375px) {
+  .grid {
+    max-width: 355px;
+  }
 }
