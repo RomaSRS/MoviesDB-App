@@ -32,6 +32,7 @@
 .card {
   padding-bottom: 24px;
 }
+
 .ant-pagination,
 .ant-pagination ol,
 .ant-pagination ul {
@@ -39,4 +40,10 @@
   padding: 0;
   list-style: none;
   text-align: center;
+}
+
+@media (max-width: 375px) {
+  .not-found-message {
+    margin-left: 41px;
+  }
 }

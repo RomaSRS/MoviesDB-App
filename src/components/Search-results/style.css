@@ -1,30 +1,53 @@
 .grid {
   width: 450px;
-  height: 281px;
+  height: 290px;
   display: flex;
 }
+
 .container {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
 }
 
-  @media (max-width: 375px) {
-    .container {
-    display: block;
-  }
-}
 .poster {
   height: 281px;
+  width: 40%;
 }
+
 .ant-card-grid {
   float: none;
   padding: 0;
   margin: 17px;
 }
+
+.ant-typography {
+  overflow: hidden;
+}
+
 .rate-scale {
   position: relative;
 }
+
 .ant-rate-star:not(:last-child) {
   margin-right: 0;
+}
+
+@media (max-width: 375px) {
+  .container {
+    display: block;
+  }
+
+  .grid {
+    width: 400px;
+  }
+
+  .poster {
+    height: 150px;
+    width: 30%;
+  }
+
+  .ant-card-grid {
+    margin: 10px;
+  }
 }
