@@ -1,4 +1,10 @@
 .menu {
   text-align: center;
-  width: 100vw;
+  min-width: 1110px;
+}
+
+@media (max-width: 375px) {
+  .menu {
+    min-width: 375px;
+  }
 }
